@@ -12,8 +12,10 @@ function sayHello(name) {
         return "Hello, World!";
     } else if (name === "Jane") {
         return "Hello, Jane!";
-    } else (name === "Alex")
-    {
+    } else if (name === "Alex") {
         return "Hello, Alex!";
+    } else (name === "Pat")
+    {
+        return "Hello, Pat!";
     }
 }
